@@ -1,10 +1,10 @@
 {
-  "name": "seti-ui",
+  "name": "peti-ui",
   "theme": "ui",
   "version": "1.11.0",
-  "description": "A dark colored UI theme for Atom with custom file icons.",
+  "description": "A dark colored UI theme for Pulsar.",
   "license": "MIT",
-  "repository": "https://github.com/jesseweed/seti-ui",
+  "repository": "https://github.com/remagpie/peti-ui",
   "engines": {
     "atom": ">1.13.0"
   },
