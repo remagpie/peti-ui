@@ -9,41 +9,6 @@
     }
 }
 
-// SET ICON FILE BASED ON DATA NAME
-.icon-set( @extension, @file, @color) {
-
-  .icon:not(.icon-file-directory),
-  .title {
-    &[data-name$="@{extension}"] {
-      .icon(@file, @color)
-    }
-  }
-
-}
-
-// SET ICON FILE BASED ON DATA NAME
-.icon-partial( @extension, @file, @color) {
-
-  .icon:not(.icon-file-directory),
-  .title {
-    &[data-name*="@{extension}"] {
-      .icon(@file, @color)
-    }
-  }
-
-}
-
-// SET ICON FOR TAB BASED ON DATA TYPE
-.tab-icon(@data-type, @file-type, @color) {
-  &[data-type="@{data-type}"] .icon {
-    .icon(@file-type, @color);
-    &::before {
-      margin-right: 7px;
-    }
-  }
-}
-
-
 // MINI EDITOR - LARGE
 .input(@bg: #000; @color: @white; @padding: 10px;) {
   atom-text-editor[mini] {

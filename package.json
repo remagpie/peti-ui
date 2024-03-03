@@ -41,53 +41,40 @@
       "type": "boolean",
       "default": false
     },
-    "fileIcons": {
-      "title": "Custom Icons",
-      "order": 5,
-      "description": "Disable this if you are using file-icons or another atom file icon package (or simply don't want custom icons)",
-      "type": "boolean",
-      "default": true
-    },
     "displayIgnored": {
       "title": "Display Ignored Files",
-      "order": 6,
+      "order": 5,
       "description": "Enable this if you would like to not see ignored files at all (as opposed to simple muting the style)",
       "type": "boolean",
       "default": true
     },
     "hideTabs": {
       "title": "Hide Tabs",
-      "order": 7,
+      "order": 6,
       "description": "Enable this if you prefer to rely on the sidebar for nagivation and don't want to see tabs at all.",
       "type": "boolean",
       "default": false
     },
     "hideDocumentTitle": {
       "title": "Hide Current Document Title",
-      "order": 8,
+      "order": 7,
       "description": "Enable this if you want to hide the main window title",
       "type": "boolean",
       "default": false
     },
     "hideTitleBar": {
       "title": "Hide Title Bar",
-      "order": 9,
+      "order": 8,
       "description": "Enable this if you want to completely hide the main window title bar",
       "type": "boolean",
       "default": false
     },
     "hideProjectTab": {
       "title": "Hide Project Tab",
-      "order": 10,
+      "order": 9,
       "description": "Enable this if you want to remove the 'project' tab from the sidebar",
       "type": "boolean",
       "default": false
     }
-  },
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-iconfont": "8.0.1",
-    "gulp-iconfont-css": "^2.1.0",
-    "gulp-svgmin": "^1.2.3"
   }
 }
