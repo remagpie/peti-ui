@@ -27,6 +27,13 @@
       ],
       "default": "Blue"
     },
+    "fontFamily": {
+      "title": "Font Family",
+      "order": 2,
+      "description": "Set the default font. If you don't notice a difference, you may have to reload Atom to see them.",
+      "type": "string",
+      "default": "'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif"
+    },
     "compactView": {
       "title": "Compact Mode",
       "order": 3,
