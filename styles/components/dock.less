@@ -1,9 +1,9 @@
 // ARROW BUTTONS TO TOGGLE DISPLAY OF LEFT/RIGHT DOCKS
 .atom-dock-toggle-button {
   .atom-dock-toggle-button-inner {
-    background: @seti-primary;
+    background: @peti-primary;
     border:     0;
-    color:      @seti-primary-text;
+    color:      @peti-primary-text;
   }
 }
 
@@ -35,13 +35,13 @@ atom-workspace.hide-project-tab {
     }
   }
 
-  &:not(.seti-compact) {
+  &:not(.peti-compact) {
     .tool-panel.tree-view {
       top: -1 * @top-bar;
     }
   }
 
-  &.seti-compact {
+  &.peti-compact {
     .tool-panel.tree-view {
       top: -1 * @top-bar-small;
     }
@@ -50,7 +50,7 @@ atom-workspace.hide-project-tab {
 }
 
 // COMPACT
-atom-workspace.seti-compact {
+atom-workspace.peti-compact {
   atom-dock {
     .list-inline.tab-bar {
       height:        @top-bar-small;
@@ -73,16 +73,16 @@ atom-workspace.seti-compact {
 atom-dock {
 
   .atom-dock-toggle-button .atom-dock-toggle-button-inner {
-    background: @seti-primary;
-    color: @seti-primary-text;
+    background: @peti-primary;
+    color: @peti-primary-text;
   }
 
   .github-StagingView-group.is-focused .is-selected {
-    background: @seti-primary;
-    color: @seti-primary-text;
+    background: @peti-primary;
+    color: @peti-primary-text;
   }
   .is-selected {
-    color: @seti-primary-text;
+    color: @peti-primary-text;
   }
 
   .list-inline.tab-bar {
@@ -103,7 +103,7 @@ atom-dock {
           width:      100%;
           left:       0px;
           opacity:    1;
-          background: @seti-primary;
+          background: @peti-primary;
         }
       }
 
@@ -140,7 +140,7 @@ atom-dock {
         }
         &.active {
           &::after {
-            background: @seti-primary;
+            background: @peti-primary;
           }
         }
       }

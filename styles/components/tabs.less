@@ -20,7 +20,7 @@ atom-workspace-axis.vertical .tab-bar {
         width: 100%;
         left: 0px;
         opacity: 1;
-        background: @seti-primary;
+        background: @peti-primary;
       }
     }
 
@@ -55,7 +55,7 @@ atom-workspace-axis.vertical .tab-bar {
 }
 
 // COMPACT
-atom-workspace.seti-compact atom-workspace-axis.vertical .tab-bar {
+atom-workspace.peti-compact atom-workspace-axis.vertical .tab-bar {
   height: @top-bar-small;
 
   .tab {
@@ -79,7 +79,7 @@ atom-workspace.seti-compact atom-workspace-axis.vertical .tab-bar {
 
 
 // ENABLE TAB ANIMATION
-atom-workspace.seti-animate {
+atom-workspace.peti-animate {
   atom-workspace-axis.vertical .tab-bar {
     .tab::after {
       transition: linear 0.3s width, linear 0.3s left, linear 0.3s opacity;
@@ -88,7 +88,7 @@ atom-workspace.seti-animate {
 }
 
 // HIDE TABS
-atom-workspace.seti-hide-tabs {
+atom-workspace.peti-hide-tabs {
   atom-workspace-axis.vertical .tab-bar {
     display: none;
   }
