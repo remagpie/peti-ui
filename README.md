@@ -1,4 +1,16 @@
-# Seti UI
+# Peti UI
+
+This is the fork of [Seti UI](https://github.com/jesseweed/seti-ui) for [Pulsar](https://pulsar-edit.dev/) Editor, based on [v1.11.0](https://github.com/jesseweed/seti-ui/tree/v1.11.0). Most of the styles are left untact, but there will be many changes if needed. There are some major changes from the original package, and those are listed in the following section. If you need other informations, please read the original readme content copied below.
+
+## Changes from the seti-ui
+
+- Icon support is deleted. Use other packages (ex. file-icons) for the icon pack support.
+- Font support is added. You can choose the font you want for the theme.
+
+-----
+-----
+
+## Seti UI
 
 [![Gitter](https://img.shields.io/gitter/room/jesseweed/seti-ui.svg?style=flat-square)](https://gitter.im/jesseweed/seti-ui) [![apm](https://img.shields.io/apm/dm/seti-ui.svg?style=flat-square)](https://atom.io/themes/seti-ui) [![apm](https://img.shields.io/apm/v/seti-ui.svg?style=flat-square)](https://atom.io/themes/seti-ui) [![apm](https://img.shields.io/apm/l/seti-ui.svg?style=flat-square)](https://atom.io/themes/seti-ui)
 [![Gratipay Team](https://img.shields.io/gratipay/team/atom-seti-ui.svg?style=flat-square)](https://gratipay.com/Atom-Seti-UI/)

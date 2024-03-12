@@ -1,7 +1,7 @@
 {
   "name": "peti-ui",
   "theme": "ui",
-  "version": "1.11.0",
+  "version": "1.12.0",
   "description": "A dark colored UI theme for Pulsar.",
   "license": "MIT",
   "repository": "https://github.com/remagpie/peti-ui",
